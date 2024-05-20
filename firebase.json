@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "art-lisboa-front-end-test",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

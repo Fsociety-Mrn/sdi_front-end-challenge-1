@@ -7,6 +7,8 @@ import Author from "./data/Authors.json"
 
 import Main from "./pages/Main";
 
+
+// firebase deploy --only hosting:art-lisboa-front-end-test
 function App() {
 
   const [data,setData] = useState({
@@ -33,8 +35,6 @@ function App() {
 
     useEffect(()=>{
       setData(News);
-      console.log(News)
-
     },[data])
 
     const changeView = (id) =>{
